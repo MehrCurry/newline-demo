@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-input v-model="text" type="textarea"/>
+    <q-input v-model="text" type="textarea" autogrow/>
     <q-markdown :src="text" />
   </div>
 </template>
